@@ -1,5 +1,12 @@
 #!/bin/sh
 
-echo "-----> 3 Releasing..."
+#echo "-----> 3 Releasing..."
+#
+#echo "-----> 2 Done Releasing."
 
-echo "-----> 2 Done Releasing."
+cat << EOF
+---
+addons:
+default_process_types:
+  web: bundle exec $HOME/web_container/bin/rails server -p $PORT
+EOF
