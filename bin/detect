@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "-----> 1 Detecting..."
+echo "1 Detecting..."
 
 if [ -f $1/.cbra ]; then
   echo "Component-Based Rails Application"
@@ -8,3 +8,5 @@ if [ -f $1/.cbra ]; then
 else
   exit 1
 fi
+
+echo "-----> 2 Done Detecting."

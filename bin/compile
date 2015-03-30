@@ -21,3 +21,5 @@ indent() {
 }
 
 export_env_dir
+
+echo "-----> 2 Done Compiling."

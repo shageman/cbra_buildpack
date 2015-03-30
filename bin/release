@@ -1,3 +1,5 @@
 #!/bin/sh
 
 echo "-----> 3 Releasing..."
+
+echo "-----> 2 Done Releasing."
