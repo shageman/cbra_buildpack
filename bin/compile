@@ -24,7 +24,8 @@ export_env_dir
 
 gem install bundler
 
-cd $HOME/web_container
+
+pushd $HOME/web_container
 bundle install --without development:test
 
 echo "-----> 2 Done Compiling."
