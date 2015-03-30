@@ -23,7 +23,6 @@ indent() {
 export_env_dir
 
 gem install bundler
-gem install rubygems
 
 bundle install --gemfile $HOME/web_container/Gemfile --without development:test
 
