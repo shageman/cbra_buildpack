@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "-----> 1 Detecting..."
+
 if [ -f $1/.cbra ]; then
   echo "Component-Based Rails Application"
   exit 0
