@@ -23,9 +23,8 @@ indent() {
 export_env_dir
 
 gem install bundler
+gem install rubygems
 
-
-pushd $HOME/web_container
-bundle install --without development:test
+bundle install --gemfile $HOME/web_container/Gemfile --without development:test
 
 echo "-----> 2 Done Compiling."
