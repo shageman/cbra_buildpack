@@ -24,6 +24,6 @@ export_env_dir
 
 gem install bundler
 
-bundle install --gemfile $HOME/web_container/Gemfile --without development:test
+bundle install --gemfile $1/web_container/Gemfile --without development:test
 
 echo "-----> 2 Done Compiling."

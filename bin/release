@@ -8,5 +8,5 @@ cat << EOF
 ---
 addons:
 default_process_types:
-  web: bundle exec $HOME/web_container/bin/rails server -p $PORT
+  web: bundle exec $1/web_container/bin/rails server -p $PORT
 EOF
