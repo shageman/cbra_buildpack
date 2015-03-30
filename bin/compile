@@ -22,4 +22,6 @@ indent() {
 
 export_env_dir
 
+gem install bundler
+
 echo "-----> 2 Done Compiling."
